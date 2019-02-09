@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project-1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5c55dfb6fec5f10011f261bd&product=inline-share-buttons"></script>
+    </head>
+
+    <body>
+        <!--HEADING-->
+        <div class="container-fluid">
+            <header class="row" id="logo">
+                <a href="index.html"></a>
+            </header>
+                <!--NAV-->
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html"> <span class="glyphicon glyphicon-home"></span> Home</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="feedback.html"> <span class="glyphicon glyphicon-pencil"></span> Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--SEARCH BAR-->
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <form id="form">
+                                <label for="search-bar">
+                                <input type="text" id="search-bar">
+                                <input type="submit" id="add-food" class="btn btn-danger" value="Search">
+                                <p id="alert-text"></p>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+         <!--JUMBOTRON-->   
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron jumbotron-fluid text-center">
+                    <h1 class="display-4">In Or Out</h1>
+                    <p class="lead">Eat Smart. Be Healthy.</p>
+                </div>
+            </div>
+        <!--SEARCH RESULTS AREA-->    
+            <div class="row">
+                <div class="column" id="recipe-nutrition"></div>
+                <div class="column" id="restaurant-nutrition">
+                    <h2>Nutritionix</h2>
+                    <p><img src="https://cdn.vox-cdn.com/thumbor/qEn1Dj2MVNnZcj7MhYQ0-DhSFqI=/0x0:1400x1050/1400x1400/filters:focal(0x0:1400x1050):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/45522676/mcdonalds-fries.0.0.jpg"
+                            alt="fries" style="width:30%;"></p>
+                </div>
+            </div>
+            <!--SHARE BUTTONS-->
+            <div class="sharethis-inline-reaction-buttons"></div>
+            <div class="sharethis-inline-share-buttons"></div>
+        </div>
+            <!--FOOTER-->
+        <div class="container-fluid">
+            <footer>
+                    &copy; In Or Out
+                    <ul>
+                        <a href="https://github.com/kathdoza/project_1"><span class="glyphicon glyphicon-folder-close"></span>
+                                GitHub Repo</a>
+                            
+                        <a href="https://www.food2fork.com/about/api"><span class="glyphicon glyphicon-log-in"></span>
+                                Food2Fork API</a>
+                                
+                        <a href="https://www.nutritionix.com/business/api"><span class="glyphicon glyphicon-log-in"></span>
+                                Nutritionix API</a>
+                    </ul>
+            </footer>
+        </div>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+    </body>
+</html>
